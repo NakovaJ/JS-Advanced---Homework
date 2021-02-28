@@ -80,7 +80,12 @@ fetch('https://raw.githubusercontent.com/sedc-codecademy/skwd9-04-ajs/main/Sampl
    .catch(error =>console.error(error))
 // Callback function that will return result of multiplication of two numbers
 
-
+function calculate(callback, num1, num2){
+	console.log("calculating...");
+	return callback(num1,num2);
+};
+let result = calculate((x, y) => x * y, 2, 5);
+console.log(result);
 // Callback function that will print the result of every user from "https://jsonplaceholder.typicode.com/users"
 
 // vo poslednite dve ne sfativ sto tocno se bara
