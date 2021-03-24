@@ -1,0 +1,128 @@
+body{
+ 
+    background-color: #198754;
+    margin: 0px;
+
+}
+.container{
+    position: relative;
+    margin-top:110px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+.nav-item{
+    background-color: #10312A;
+    opacity: 70%;
+    
+}
+.container-fluid{
+    background-color: #ffffff;
+    display:block;
+}
+.nav-link{
+    color: #EAB85D;
+   
+}
+.nav-link:hover{
+    color: white
+   
+}
+.col-6{
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    /* opacity: 70%; */
+}
+#intro{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: auto;
+    position:absolute;
+    text-align: center;
+    padding: 20px;
+    color: wheat;
+    height: 60%;
+    background-color: yellowgreen;
+    opacity: 90%;
+    z-index: 100;
+    overflow: hidden;
+}
+.register{
+    flex-wrap: wrap;
+    position: absolute;
+    margin-left: 25%;
+    color: red;
+    width: 40%;
+    background-color: #EAB85D;
+    z-index: 100;
+    padding: 30px;
+    opacity: 90%;
+    display:none;
+}
+.register h5{
+    color: black;
+}
+.login{
+    position: absolute;
+    flex-wrap: wrap;
+    margin-left: 25%;
+    width: 40%;
+    background-color: #EAB85D;
+    z-index: 100;
+    padding: 30px;
+    opacity: 90%;
+ display:none;
+}
+.login h5{
+    display: none;
+}
+.btn{
+    color: wheat;
+}
+#headerParagraph{
+    display: none;
+}
+#logout{
+display:none;
+}
+#headerParagraph{
+    color: #198754;
+}
+#loginHeading{
+    color: red;
+}
+.added{
+    margin: 20px;
+}
+h3{
+    margin-bottom: 10px;
+}
+.row{
+    margin: 10px;
+}
+
+.btn-secondary{
+    background-color:#37B449;
+    color: darkgreen;
+}
+#cart{
+  display: none;
+  
+    opacity: 70%;
+    background-color: wheat;
+    color: black;
+    padding: 15px;
+    margin: 45px;
+    width: 200px;
+    /* height: 300px;  */
+   
+}
+.buy, .buyEquipment, .buyPlantProducts, .buyAnimalProductsButtons{
+  background-color: orange;
+  border-radius: 5px;
+}
+#cartDisplay{
+display: flex;
+flex-wrap: wrap;
+}

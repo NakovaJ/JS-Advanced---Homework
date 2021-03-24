@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link href="styles.css" type='text/css' rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <nav class="navbar fixed-top navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="Photos/farm2.png" height="70px"></a>
+      <div id="floatRight">
+        <button type="button" class="btn btn-success" id="btnLogin1">Login</button>
+        <button type="button" class="btn btn-success" id="btnRegister1">Register HERE!</button>
+        <b>
+          <p id="headerParagraph"></p>
+        </b><button type="button" class="btn btn-success" id="logout">Logout</button>
+
+      </div>
+    </div>
+  </nav>
+
+
+  <div id="intro">
+
+    <h3>Find your dream farm or sell it easily HERE!
+    </h3>
+    <h3>
+      Get all the needed info to bring the best business decisions and everything a farmer needs at the very best
+      prices!
+    </h3>
+
+    <h5>Login and check all the listings!</h5>
+    <button type="button" class="btn btn-success" id="btnLogin2">Login</button>
+    <h5>And if you do not have a profile yet, REGISTER immediately HERE!</h5>
+
+    <button type="button" class="btn btn-success" id="btnRegister2">Register HERE!</button>
+
+  </div>
+
+  <div class="register">
+    <form>
+      <fieldset>
+        <h5>Register now! Check out all farm listings and list your stuff for sale!</h5>
+        <input type="text" placeholder="First Name" id="firstName">
+        <p id="p1"></p>
+        <input type="text" placeholder="Last Name" id="lastName">
+        <p id="p2"></p>
+        <input type="text" placeholder="Username" id="username">
+        <p id="p3"></p>
+
+        <input type="password" placeholder="Password" id="passwordOne">
+        <p></p>
+
+        <input type="password" placeholder="Password" id="passwordTwo">
+        <p id="p4"></p>
+
+        <button type="button" class="btn btn-success" id="btnRegister3">Register HERE!</button>
+
+      </fieldset>
+    </form>
+  </div>
+  <div class="login">
+    <form>
+      <fieldset>
+        <h5 id="registerLogin">You have successfully registered!</h5>
+        <h6>Login and check out todays listings!</h6>
+        <p></p>
+        <input type="text" placeholder="Username" id="inputName">
+        <p></p>
+        <input type="password" placeholder="Password" id="inputPasword">
+        <p id="loginHeading"></p>
+
+        <button type="button" class="btn btn-success" id="btnLogin3">Login</button>
+
+      </fieldset>
+    </form>
+  </div>
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-2">
+        <div class="container2">
+          <li class="nav-item">
+            <a class="nav-link " id="farms">FARMS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="animals">ANIMALS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="equipment">EQUIPMENT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="grainsProduced">PLANT PRODUCTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="animalProducts">FARM ANIMAL PRODUCTS</a>
+          </li>
+          </ul>
+
+
+        </div>
+      </div>
+      <div class="col-1"></div>
+      <div class="col-7" id="display">
+
+
+      </div>
+      <!-- <div class="col-1"></div> -->
+
+
+      <div class="col-2">
+        <div id="cart">
+        
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+
+
+
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
